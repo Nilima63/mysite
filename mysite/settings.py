@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-+l)nq1gq_kb498is=pmlq+(g5#)f=^77+fkgc!(ic%lsu(fo-5
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
 # Allow hosts from environment variable or localhost by default
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost 127.0.0.1').split()
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
